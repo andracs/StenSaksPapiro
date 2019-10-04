@@ -34,9 +34,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Haand spillerensHaand = null;
         String spillerenString = scanner.next();
-        if (spillerenString.equals("sten")) { spillerensHaand = Haand.STEN; }
-        if (spillerenString.equals("saks")) { spillerensHaand = Haand.SAKS; }
-        if (spillerenString.equals("papir")) { spillerensHaand = Haand.PAPIR; }
+        if (spillerenString.equalsIgnoreCase("sten")) { spillerensHaand = Haand.STEN; }
+        if (spillerenString.equalsIgnoreCase("saks")) { spillerensHaand = Haand.SAKS; }
+        if (spillerenString.equalsIgnoreCase("papir")) { spillerensHaand = Haand.PAPIR; }
         System.out.println("Spiller slår " + spillerensHaand);
 
         // Sammenligne med slaa() metoden

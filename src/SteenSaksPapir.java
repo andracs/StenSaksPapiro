@@ -14,7 +14,7 @@ public class SteenSaksPapir {
     int slaa(Haand a, Haand b) {
 
         int resultat = -1;
-        // TODO refaokter, så det bliver kortere med f.eks.
+        // TODO refaktorer, så det bliver kortere med f.eks.
         //  if(a == Haand.STEN && b== Haand.STEN) { resultat = 0;}
         //  if(a == Haand.STEN && b== Haand.SAKS) { resultat = 1;}
 
