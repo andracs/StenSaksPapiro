@@ -89,7 +89,4 @@ public class SteenSaksPapir {
 
         return resultat;
     }
-
-    // TODO flereKampe() {}
-
 }
